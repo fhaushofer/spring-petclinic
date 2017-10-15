@@ -38,7 +38,7 @@
               <ul class="nav navbar-nav navbar-right">
   
                   <li th:fragment="menuItem (path,active,glyph,name)" class="active" th:class="${active==menu ? 'active' : ''}">
-                      <a th:href="@{__${path}__}" th:title="#{${name + '.title'}}">
+                      <a th:unless="${name == null}" th:href="@{__${path}__}" th:title="#{${name + '.title'}}">
                         <span th:class="'glyphicon  glyphicon-'+${glyph}" class="glyphicon glyphicon-home" aria-hidden="true"></span>
                         <span th:text="#{${name + '.text'}}">Template</span>
                       </a>
