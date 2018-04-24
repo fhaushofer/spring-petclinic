@@ -1,0 +1,282 @@
+#. extracted from ./repo/src/main/resources/messages/messages.properties, ./repo/src/main/resources/messages/messages.properties
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-22 20:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+msgid "One file removed"
+msgid_plural "%d files removed"
+msgstr[0] "%d file removed"
+msgstr[1] "%d files removed"
+
+#: welcome
+msgid "Welcome"
+msgstr "Welcome"
+
+#: required
+msgid "is required"
+msgstr "is required"
+
+#: notFound
+msgid "has not been found"
+msgstr "has not been found"
+
+#: duplicate
+msgid "is already in use"
+msgstr "is already in use"
+
+#: nonNumeric
+msgid "must be all numeric"
+msgstr "must be all numeric"
+
+#: duplicateFormSubmission
+msgid "Duplicate form submission is not allowed"
+msgstr "Duplicate form submission is not allowed"
+
+#: typeMismatch.date
+msgctxt "typeMismatch.date"
+msgid "invalid date"
+msgstr "invalid date"
+
+#: typeMismatch.birthDate
+msgctxt "typeMismatch.birthDate"
+msgid "invalid date"
+msgstr "invalid date"
+
+#: exception.text
+msgid "Something terrible happened...."
+msgstr "Something terrible happened...."
+
+#: vet.header
+msgid "{0} {0, plural, one{Veterinarian}other{Veterinarians}}"
+msgstr "{0} {0, plural, one{Veterinarian}other{Veterinarians}}"
+
+#: vet.name
+msgctxt "vet.name"
+msgid "Name"
+msgstr "Name"
+
+#: vet.specialities
+msgid "Specialities"
+msgstr "Specialities"
+
+#: vet.specialities.none
+msgid "none"
+msgstr "none"
+
+#: vet.viewas.xml
+msgid "View as XML"
+msgstr "View as XML"
+
+#: vet.viewas.json
+msgid "View as JSON"
+msgstr "View as JSON"
+
+#: pet.name
+msgctxt "pet.name"
+msgid "Name"
+msgstr "Name"
+
+#: pet.birthdate
+msgid "Birthdate"
+msgstr "Birthdate"
+
+#: pet.type
+msgid "Type"
+msgstr "Type"
+
+#: form.pet.header
+msgid "New Pet"
+msgstr "New Pet"
+
+#: form.pet.owner
+msgid "Owner"
+msgstr "Owner"
+
+#: form.pet.add
+msgid "Add Pet"
+msgstr "Add Pet"
+
+#: form.pet.update
+msgid "Update Pet"
+msgstr "Update Pet"
+
+#: form.pet.edit
+msgid "Edit Pet"
+msgstr "Edit Pet"
+
+#: layout.title
+msgid "PetClinic :: a Spring Framework demonstration"
+msgstr "PetClinic :: a Spring Framework demonstration"
+
+#: layout.menu.home.text
+msgid "Home"
+msgstr "Home"
+
+#: layout.menu.home.title
+msgid "home page"
+msgstr "home page"
+
+#: layout.menu.findowners.text
+msgid "Find owners"
+msgstr "Find owners"
+
+#: layout.menu.findowners.title
+msgid "find owners"
+msgstr "find owners"
+
+#: layout.menu.vets.text
+msgid "Veterinarians"
+msgstr "Veterinarians"
+
+#: layout.menu.vets.title
+msgid "veterinarians"
+msgstr "veterinarians"
+
+#: layout.menu.error.text
+msgid "Error"
+msgstr "Error"
+
+#: layout.menu.error.title
+msgid "trigger a RuntimeException to see how it is handled"
+msgstr "trigger a RuntimeException to see how it is handled"
+
+#: form.visit.header
+msgid "New Visit"
+msgstr "New Visit"
+
+#: form.visit.add
+msgid "Add Visit"
+msgstr "Add Visit"
+
+#: form.general.date
+msgid "Date"
+msgstr "Date"
+
+#: form.general.description
+msgid "Description"
+msgstr "Description"
+
+#: visits.previous
+msgid "Previous Visits"
+msgstr "Previous Visits"
+
+#: general.pets
+msgctxt "general.pets"
+msgid "Pets"
+msgstr "Pets"
+
+#: form.owners.header
+msgid "{0} {0, plural, one{Owner}other{Owners}} found"
+msgstr "{0} {0, plural, one{Owner}other{Owners}} found"
+
+#: form.owners.pets
+msgctxt "form.owners.pets"
+msgid "Pets"
+msgstr "Pets"
+
+#: owner.find.header
+msgid "Find Owners"
+msgstr "Find Owners"
+
+#: owner.find.button.search
+msgid "Find Owner"
+msgstr "Find Owner"
+
+#: owner.button.add
+msgid "Add Owner"
+msgstr "Add Owner"
+
+#: owner.button.update
+msgid "Update Owner"
+msgstr "Update Owner"
+
+#: owner.name
+msgctxt "owner.name"
+msgid "Name"
+msgstr "Name"
+
+#: owner.lastname
+msgid "Last name"
+msgstr "Last name"
+
+#: owner.firstname
+msgid "Vorname"
+msgstr "Vorname"
+
+#: owner.address
+msgid "Address"
+msgstr "Address"
+
+#: owner.city
+msgid "City"
+msgstr "City"
+
+#: owner.phone
+msgid "Telephone"
+msgstr "Telephone"
+
+#: owner.detail.header
+msgid "Owner Information"
+msgstr "Owner Information"
+
+#: owner.detail.button.edit
+msgid "Edit Owner"
+msgstr "Edit Owner"
+
+#: owner.detail.button.add
+msgid "Add New Pet"
+msgstr "Add New Pet"
+
+#: owner.detail.header.petsandvisits
+msgid "Pets and Visits"
+msgstr "Pets and Visits"
+
+#: owner.detail.form.visitdate
+msgid "Visit Date"
+msgstr "Visit Date"
+
+#. #
+#: qa.spelling
+msgid "Please give me cookies"
+msgstr "Please give me cookies"
+
+#: qa.grammar
+msgid "Today is a nice day"
+msgstr "Today is a nice day"
+
+#: qa.date
+msgid "Available since 4/20/1995"
+msgstr "Available since 4/20/1995"
+
+#: qa.currency
+msgid "we always pay in $"
+msgstr "we always pay in $"
+
+#: qa.markup
+msgid "<p id=\"hello\">my paragraph</p>"
+msgstr "<p id=\"hello\">my paragraph</p>"
+
+#: qa.punctation
+msgid "This, is a very important text!"
+msgstr "This, is a very important text!"
+
+#: qa.punctation2
+msgid "Dies ist ein sehr) wichtiger text"
+msgstr "Dies ist ein sehr) wichtiger text"
+
+#: qa.whitespace1
+msgid "This sentence    contains a tab"
+msgstr "This sentence    contains a tab"
+
+#: qa.whitespace2
+msgid "This sentence contains a trailing whitespace "
+msgstr "This sentence contains a trailing whitespace "

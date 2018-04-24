@@ -1,0 +1,7 @@
+#: vet.viewas.xml
+msgid "XML"
+msgstr "Als XML anzeigen"
+
+#: vet.viewas.json
+msgid "JSON"
+msgstr "Als XML anzeigen"

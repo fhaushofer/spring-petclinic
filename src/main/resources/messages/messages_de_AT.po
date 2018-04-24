@@ -1,0 +1,278 @@
+#. extracted from ./repo/src/main/resources/messages/messages.properties, ./repo/src/main/resources/messages/messages_de_AT.properties
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-22 20:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+
+#: welcome
+msgid "Welcome"
+msgstr "Willkommen"
+
+#: required
+msgid "is required"
+msgstr "muss angegeben werden"
+
+#: notFound
+msgid "has not been found"
+msgstr "wurde nicht gefunden"
+
+#: duplicate
+msgid "is already in use"
+msgstr "ist bereits vergeben"
+
+#: nonNumeric
+msgid "must be all numeric"
+msgstr "darf nur numerisch sein"
+
+#: duplicateFormSubmission
+msgid "Duplicate form submission is not allowed"
+msgstr "Wiederholtes Absenden des Formulars ist nicht erlaubt"
+
+#: typeMismatch.date
+msgctxt "typeMismatch.date"
+msgid "invalid date"
+msgstr "ungültiges Datum"
+
+#: typeMismatch.birthDate
+msgctxt "typeMismatch.birthDate"
+msgid "invalid date"
+msgstr "ungültiges Datum"
+
+#: exception.text
+msgid "Something terrible happened...."
+msgstr "Etwas Schreckliches ist geschehen...."
+
+#: vet.header
+msgid "{0} {0, plural, one{Veterinarian}other{Veterinarians}}"
+msgstr "Tierärzte"
+
+#: vet.name
+msgctxt "vet.name"
+msgid "Name"
+msgstr "Name"
+
+#: vet.specialities
+msgid "Specialities"
+msgstr "Spezialisierung"
+
+#: vet.specialities.none
+msgid "none"
+msgstr "keine"
+
+#: vet.viewas.xml
+msgid "View as XML"
+msgstr "Als XML anzeigen"
+
+#: vet.viewas.json
+msgid "View as JSON"
+msgstr "Als JSON anzeigen"
+
+#: pet.name
+msgctxt "pet.name"
+msgid "Name"
+msgstr "Name"
+
+#: pet.birthdate
+msgid "Birthdate"
+msgstr "Geburtsdatum"
+
+#: pet.type
+msgid "Type"
+msgstr "Typ"
+
+#: form.pet.header
+msgid "New Pet"
+msgstr "Neues Haustier"
+
+#: form.pet.owner
+msgid "Owner"
+msgstr "Besitzer"
+
+#: form.pet.add
+msgid "Add Pet"
+msgstr "Haustier hinzufügen"
+
+#: form.pet.update
+msgid "Update Pet"
+msgstr "Haustier aktualisieren"
+
+#: form.pet.edit
+msgid "Edit Pet"
+msgstr "Haustier bearbeiten"
+
+#: layout.title
+msgid "PetClinic :: a Spring Framework demonstration"
+msgstr "PetClinic :: Eine Spring Framework Demo"
+
+#: layout.menu.home.text
+msgid "Home"
+msgstr "Home"
+
+#: layout.menu.home.title
+msgid "home page"
+msgstr "home page"
+
+#: layout.menu.findowners.text
+msgid "Find owners"
+msgstr "Besitzer finden"
+
+#: layout.menu.findowners.title
+msgid "find owners"
+msgstr "besitzer finden"
+
+#: layout.menu.vets.text
+msgid "Veterinarians"
+msgstr "Tierärzte"
+
+#: layout.menu.vets.title
+msgid "veterinarians"
+msgstr "tierärzte"
+
+#: layout.menu.error.text
+msgid "Error"
+msgstr "Fehler"
+
+#: layout.menu.error.title
+msgid "trigger a RuntimeException to see how it is handled"
+msgstr "Löse eine RuntimeException aus, um zu sehen wie sie behandelt wird"
+
+#: form.visit.header
+msgid "New Visit"
+msgstr "Neuer Besuch"
+
+#: form.visit.add
+msgid "Add Visit"
+msgstr "Besuch hinzufügen"
+
+#: form.general.date
+msgid "Date"
+msgstr "Datum"
+
+#: form.general.description
+msgid "Description"
+msgstr "Beschreibung"
+
+#: visits.previous
+msgid "Previous Visits"
+msgstr "Vergangene Besuche"
+
+#: general.pets
+msgctxt "general.pets"
+msgid "Pets"
+msgstr "Haustiere"
+
+#: form.owners.header
+msgid "{0} {0, plural, one{Owner}other{Owners}} found"
+msgstr "Besitzer"
+
+#: form.owners.pets
+msgctxt "form.owners.pets"
+msgid "Pets"
+msgstr "Haustiere"
+
+#: owner.find.header
+msgid "Find Owners"
+msgstr "Suche nach Besitzern"
+
+#: owner.find.button.search
+msgid "Find Owner"
+msgstr "Suche Besitzer"
+
+#: owner.button.add
+msgid "Add Owner"
+msgstr "Neuer Besitzer"
+
+#: owner.button.update
+msgid "Update Owner"
+msgstr "Besitzer aktualisieren"
+
+#: owner.name
+msgctxt "owner.name"
+msgid "Name"
+msgstr ""
+
+#: owner.lastname
+msgid "Last name"
+msgstr "Nachname"
+
+#: owner.firstname
+msgid "Vorname"
+msgstr ""
+
+#: owner.address
+msgid "Address"
+msgstr ""
+
+#: owner.city
+msgid "City"
+msgstr ""
+
+#: owner.phone
+msgid "Telephone"
+msgstr "Telefon"
+
+#: owner.detail.header
+msgid "Owner Information"
+msgstr "Besitzer"
+
+#: owner.detail.button.edit
+msgid "Edit Owner"
+msgstr "Besitzer bearbeiten"
+
+#: owner.detail.button.add
+msgid "Add New Pet"
+msgstr "Neues Haustier hinzufügen"
+
+#: owner.detail.header.petsandvisits
+msgid "Pets and Visits"
+msgstr "Haustiere und Besuche"
+
+#: owner.detail.form.visitdate
+msgid "Visit Date"
+msgstr "Besuchszeit"
+
+#. #
+#: qa.spelling
+msgid "Please give me cookies"
+msgstr "Bitte gip mir cookies"
+
+#: qa.grammar
+msgid "Today is a nice day"
+msgstr "Heute ist ein schönes Tag"
+
+#: qa.date
+msgid "Available since 4/20/1995"
+msgstr "Verfügbar seit 4/20/1995"
+
+#: qa.currency
+msgid "we always pay in $"
+msgstr "wir zahlen immer in $"
+
+#: qa.markup
+msgid "<p id=\"hello\">my paragraph</p>"
+msgstr ""
+
+#: qa.punctation
+msgid "This, is a very important text!"
+msgstr ""
+
+#: qa.punctation2
+msgid "Dies ist ein sehr) wichtiger text"
+msgstr ""
+
+#: qa.whitespace1
+msgid "This sentence    contains a tab"
+msgstr ""
+
+#: qa.whitespace2
+msgid "This sentence contains a trailing whitespace "
+msgstr ""
