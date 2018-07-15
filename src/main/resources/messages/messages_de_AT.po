@@ -1,17 +1,19 @@
 #. extracted from ./repo/src/main/resources/messages/messages.properties, ./repo/src/main/resources/messages/messages_de_AT.properties
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-22 20:02+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-07-29 16:37+0000\n"
+"Last-Translator: Weblate Admin <noreply@weblate.org>\n"
+"Language-Team: Austrian German <http://localhost/projects/petshop/petclinic-"
+"dev/de_AT/>\n"
+"Language: de_AT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.17.1\n"
 
 #: welcome
 msgid "Welcome"
@@ -70,7 +72,7 @@ msgstr "keine"
 
 #: vet.viewas.xml
 msgid "View as XML"
-msgstr "Als XML anzeigen"
+msgstr "Als XAML anzeigen"
 
 #: vet.viewas.json
 msgid "View as JSON"
@@ -259,7 +261,7 @@ msgstr "wir zahlen immer in $"
 
 #: qa.markup
 msgid "<p id=\"hello\">my paragraph</p>"
-msgstr ""
+msgstr "<p hello=\"hello\"> 1my test</p> 2"
 
 #: qa.punctation
 msgid "This, is a very important text!"
@@ -267,7 +269,7 @@ msgstr ""
 
 #: qa.punctation2
 msgid "Dies ist ein sehr) wichtiger text"
-msgstr ""
+msgstr "Dies ist ein sehr wichtiger text"
 
 #: qa.whitespace1
 msgid "This sentence    contains a tab"
