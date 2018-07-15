@@ -1,17 +1,18 @@
 #. extracted from ./repo/src/main/resources/messages/messages.properties, ./repo/src/main/resources/messages/messages_de.properties
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-22 20:02+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-07-29 17:08+0000\n"
+"Last-Translator: Weblate Admin <noreply@weblate.org>\n"
+"Language-Team: German <http://localhost/projects/petshop/petclinic-dev/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.17.1\n"
 
 msgid "One file removed"
 msgid_plural "%d files removed"
@@ -276,7 +277,7 @@ msgstr "This, is a (very) important text"
 
 #: qa.whitespace1
 msgid "This sentence    contains a tab"
-msgstr "Dieser Satz enthält keinen tab!"
+msgstr "Dieser Satz enthält keinen tab"
 
 #: qa.whitespace2
 msgid "This sentence contains a trailing whitespace "
