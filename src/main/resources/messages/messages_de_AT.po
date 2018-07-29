@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-22 20:02+0000\n"
-"PO-Revision-Date: 2018-07-29 16:37+0000\n"
+"PO-Revision-Date: 2018-07-29 16:38+0000\n"
 "Last-Translator: Weblate Admin <noreply@weblate.org>\n"
 "Language-Team: Austrian German <http://localhost/projects/petshop/petclinic-"
 "dev/de_AT/>\n"
@@ -33,7 +33,7 @@ msgstr "ist bereits vergeben"
 
 #: nonNumeric
 msgid "must be all numeric"
-msgstr "darf nur numerisch sein"
+msgstr ""
 
 #: duplicateFormSubmission
 msgid "Duplicate form submission is not allowed"
