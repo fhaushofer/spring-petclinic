@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: petshoptest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-22 20:02+0000\n"
-"PO-Revision-Date: 2018-08-13 14:02\n"
+"PO-Revision-Date: 2018-08-13 14:13\n"
 "Last-Translator: fhaushofer <franz.haushofer@student.tugraz.at>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -68,7 +68,7 @@ msgstr "{0} {0, plural, one{Tierarzt}other{Tierärzte}}"
 #: vet.name
 msgctxt "vet.name"
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: vet.specialities
 msgid "Specialities"
