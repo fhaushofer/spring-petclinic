@@ -1,17 +1,22 @@
-#. extracted from ./repo/src/main/resources/messages/messages.properties, ./repo/src/main/resources/messages/messages_de.properties
-#, fuzzy
+#. extracted from ./repo/src/main/resources/messages/messages.properties, ./repo/src/main/resources/messages/messages.properties
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"""\n"
+"Project-Id-Version: petshoptest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-22 20:02+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-08-13 10:00\n"
+"Last-Translator: fhaushofer <franz.haushofer@student.tugraz.at>\n"
+"Language-Team: German, Austria\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: petshoptest\n"
+"X-Crowdin-Language: de-AT\n"
+"X-Crowdin-File: /crowdin/src/main/resources/messages/messages.po\n"
+"Language: de_AT\n"
 
 msgid "One file removed"
 msgid_plural "%d files removed"
@@ -63,7 +68,7 @@ msgstr "{0} {0, plural, one{Tierarzt}other{Tierärzte}}"
 #: vet.name
 msgctxt "vet.name"
 msgid "Name"
-msgstr "Name"
+msgstr ""
 
 #: vet.specialities
 msgid "Specialities"
@@ -84,7 +89,7 @@ msgstr "Als JSON anzeigen"
 #: pet.name
 msgctxt "pet.name"
 msgid "Name"
-msgstr "Name"
+msgstr ""
 
 #: pet.birthdate
 msgid "Birthdate"
@@ -120,11 +125,11 @@ msgstr "PetClinic :: Eine Spring Framework Demo"
 
 #: layout.menu.home.text
 msgid "Home"
-msgstr "Home"
+msgstr ""
 
 #: layout.menu.home.title
 msgid "home page"
-msgstr "home page"
+msgstr ""
 
 #: layout.menu.findowners.text
 msgid "Find owners"
@@ -203,7 +208,7 @@ msgstr "Besitzer aktualisieren"
 #: owner.name
 msgctxt "owner.name"
 msgid "Name"
-msgstr "Name"
+msgstr ""
 
 #: owner.lastname
 msgid "Last name"
@@ -211,7 +216,7 @@ msgstr "Nachname"
 
 #: owner.firstname
 msgid "Vorname"
-msgstr "Vorname"
+msgstr ""
 
 #: owner.address
 msgid "Address"
@@ -264,7 +269,7 @@ msgstr "wir zahlen immer in $"
 
 #: qa.markup
 msgid "<p id=\"hello\">my paragraph</p>"
-msgstr "<p id=\"hello\">my paragraph</p>"
+msgstr ""
 
 #: qa.punctation
 msgid "This, is a very important text!"
@@ -281,3 +286,4 @@ msgstr "Dieser Satz enthält keinen tab!"
 #: qa.whitespace2
 msgid "This sentence contains a trailing whitespace "
 msgstr "Dieser Satz enthält kein nachfolgendes Leerzeichen"
+
