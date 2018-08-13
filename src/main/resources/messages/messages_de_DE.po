@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: petshoptest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-22 20:02+0000\n"
-"PO-Revision-Date: 2018-08-13 11:41\n"
+"PO-Revision-Date: 2018-08-13 11:51\n"
 "Last-Translator: fhaushofer <franz.haushofer@student.tugraz.at>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -37,7 +37,7 @@ msgstr "wurde nicht gefunden"
 
 #: duplicate
 msgid "is already in use"
-msgstr "ist bereits vergeben"
+msgstr "is already in use"
 
 #: nonNumeric
 msgid "must be all numeric"
@@ -84,7 +84,7 @@ msgstr "Als XML anzeigen"
 
 #: vet.viewas.json
 msgid "View as JSON"
-msgstr "Als JSON anzeigen"
+msgstr "Als JESON anzeigen"
 
 #: pet.name
 msgctxt "pet.name"
@@ -269,7 +269,7 @@ msgstr "wir zahlen immer in $"
 
 #: qa.markup
 msgid "<p id=\"hello\">my paragraph</p>"
-msgstr ""
+msgstr "<p id=\"hellomyfriend\"a</p>"
 
 #: qa.punctation
 msgid "This, is a very important text!"
