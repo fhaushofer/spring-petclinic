@@ -1,0 +1,6 @@
+{
+    "title": "Titel",
+    "body.paragraph": "Dies ist ein Paragraph.",
+    "users.form.submit": "{count, plural, one {You have {count} file.} other {You have {count} files.}}",
+    "users.salutation": "{0} {0, plural, one{Veterinarian}other{Veterinarians}} {{name}}"
+}
