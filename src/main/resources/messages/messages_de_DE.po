@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: petshoptest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-22 20:02+0000\n"
-"PO-Revision-Date: 2018-08-13 10:17\n"
+"PO-Revision-Date: 2018-08-13 14:13\n"
 "Last-Translator: fhaushofer <franz.haushofer@student.tugraz.at>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -20,50 +20,50 @@ msgstr ""
 
 msgid "One file removed"
 msgid_plural "%d files removed"
-msgstr[0] "%d Datei entfernt"
-msgstr[1] "%d Dateien entfernt"
+msgstr[0] ""
+msgstr[1] ""
 
 #: welcome
 msgid "Welcome"
-msgstr "Willkommen"
+msgstr ""
 
 #: required
 msgid "is required"
-msgstr "muss angegeben werden"
+msgstr ""
 
 #: notFound
 msgid "has not been found"
-msgstr "wurde nicht gefunden"
+msgstr ""
 
 #: duplicate
 msgid "is already in use"
-msgstr "ist bereits vergeben"
+msgstr ""
 
 #: nonNumeric
 msgid "must be all numeric"
-msgstr "darf nur numerisch sein"
+msgstr ""
 
 #: duplicateFormSubmission
 msgid "Duplicate form submission is not allowed"
-msgstr "Wiederholtes Absenden des Formulars ist nicht erlaubt"
+msgstr ""
 
 #: typeMismatch.date
 msgctxt "typeMismatch.date"
 msgid "invalid date"
-msgstr "ungültiges Datum"
+msgstr ""
 
 #: typeMismatch.birthDate
 msgctxt "typeMismatch.birthDate"
 msgid "invalid date"
-msgstr "ungültiges Datum"
+msgstr ""
 
 #: exception.text
 msgid "Something terrible happened...."
-msgstr "Etwas Schreckliches ist geschehen...."
+msgstr ""
 
 #: vet.header
 msgid "{0} {0, plural, one{Veterinarian}other{Veterinarians}}"
-msgstr "{0} {0, plural, one{Tierarzt}other{Tierärzte}}"
+msgstr ""
 
 #: vet.name
 msgctxt "vet.name"
@@ -72,19 +72,19 @@ msgstr ""
 
 #: vet.specialities
 msgid "Specialities"
-msgstr "Spezialisierung"
+msgstr ""
 
 #: vet.specialities.none
 msgid "none"
-msgstr "keine"
+msgstr ""
 
 #: vet.viewas.xml
 msgid "View as XML"
-msgstr "Als XML anzeigen"
+msgstr ""
 
 #: vet.viewas.json
 msgid "View as JSON"
-msgstr "Als JSON anzeigen"
+msgstr ""
 
 #: pet.name
 msgctxt "pet.name"
@@ -93,35 +93,35 @@ msgstr ""
 
 #: pet.birthdate
 msgid "Birthdate"
-msgstr "Geburtsdatum"
+msgstr ""
 
 #: pet.type
 msgid "Type"
-msgstr "Typ"
+msgstr ""
 
 #: form.pet.header
 msgid "New Pet"
-msgstr "Neues Haustier"
+msgstr ""
 
 #: form.pet.owner
 msgid "Owner"
-msgstr "Besitzer"
+msgstr ""
 
 #: form.pet.add
 msgid "Add Pet"
-msgstr "Haustier hinzufügen"
+msgstr ""
 
 #: form.pet.update
 msgid "Update Pet"
-msgstr "Haustier aktualisieren"
+msgstr ""
 
 #: form.pet.edit
 msgid "Edit Pet"
-msgstr "Haustier bearbeiten"
+msgstr ""
 
 #: layout.title
 msgid "PetClinic :: a Spring Framework demonstration"
-msgstr "PetClinic :: Eine Spring Framework Demo"
+msgstr ""
 
 #: layout.menu.home.text
 msgid "Home"
@@ -133,77 +133,77 @@ msgstr ""
 
 #: layout.menu.findowners.text
 msgid "Find owners"
-msgstr "Besitzer finden"
+msgstr ""
 
 #: layout.menu.findowners.title
 msgid "find owners"
-msgstr "besitzer finden"
+msgstr ""
 
 #: layout.menu.vets.text
 msgid "Veterinarians"
-msgstr "Tierärzte"
+msgstr ""
 
 #: layout.menu.vets.title
 msgid "veterinarians"
-msgstr "tierärzte"
+msgstr ""
 
 #: layout.menu.error.text
 msgid "Error"
-msgstr "Fehler"
+msgstr ""
 
 #: layout.menu.error.title
 msgid "trigger a RuntimeException to see how it is handled"
-msgstr "Löse eine RuntimeException aus, um zu sehen wie sie behandelt wird"
+msgstr ""
 
 #: form.visit.header
 msgid "New Visit"
-msgstr "Neuer Besuch"
+msgstr ""
 
 #: form.visit.add
 msgid "Add Visit"
-msgstr "Besuch hinzufügen"
+msgstr ""
 
 #: form.general.date
 msgid "Date"
-msgstr "Datum"
+msgstr ""
 
 #: form.general.description
 msgid "Description"
-msgstr "Beschreibung"
+msgstr ""
 
 #: visits.previous
 msgid "Previous Visits"
-msgstr "Vergangene Besuche"
+msgstr ""
 
 #: general.pets
 msgctxt "general.pets"
 msgid "Pets"
-msgstr "Haustiere"
+msgstr ""
 
 #: form.owners.header
 msgid "{0} {0, plural, one{Owner}other{Owners}} found"
-msgstr "{0} Besitzer gefunden"
+msgstr ""
 
 #: form.owners.pets
 msgctxt "form.owners.pets"
 msgid "Pets"
-msgstr "Haustiere"
+msgstr ""
 
 #: owner.find.header
 msgid "Find Owners"
-msgstr "Suche nach Besitzern"
+msgstr ""
 
 #: owner.find.button.search
 msgid "Find Owner"
-msgstr "Suche Besitzer"
+msgstr ""
 
 #: owner.button.add
 msgid "Add Owner"
-msgstr "Neuer Besitzer"
+msgstr ""
 
 #: owner.button.update
 msgid "Update Owner"
-msgstr "Besitzer aktualisieren"
+msgstr ""
 
 #: owner.name
 msgctxt "owner.name"
@@ -212,7 +212,7 @@ msgstr ""
 
 #: owner.lastname
 msgid "Last name"
-msgstr "Nachname"
+msgstr ""
 
 #: owner.firstname
 msgid "Vorname"
@@ -220,52 +220,52 @@ msgstr ""
 
 #: owner.address
 msgid "Address"
-msgstr "Adresse"
+msgstr ""
 
 #: owner.city
 msgid "City"
-msgstr "Stadt"
+msgstr ""
 
 #: owner.phone
 msgid "Telephone"
-msgstr "Telefon"
+msgstr ""
 
 #: owner.detail.header
 msgid "Owner Information"
-msgstr "Besitzer"
+msgstr ""
 
 #: owner.detail.button.edit
 msgid "Edit Owner"
-msgstr "Besitzer bearbeiten"
+msgstr ""
 
 #: owner.detail.button.add
 msgid "Add New Pet"
-msgstr "Neues Haustier hinzufügen"
+msgstr ""
 
 #: owner.detail.header.petsandvisits
 msgid "Pets and Visits"
-msgstr "Haustiere und Besuche"
+msgstr ""
 
 #: owner.detail.form.visitdate
 msgid "Visit Date"
-msgstr "Besuchszeit"
+msgstr ""
 
 #. #
 #: qa.spelling
 msgid "Please give me cookies"
-msgstr "Bitte gip mir cookies"
+msgstr ""
 
 #: qa.grammar
 msgid "Today is a nice day"
-msgstr "Heute ist ein schönes Tag"
+msgstr ""
 
 #: qa.date
 msgid "Available since 4/20/1995"
-msgstr "Verfügbar seit 4/20/1995"
+msgstr ""
 
 #: qa.currency
 msgid "we always pay in $"
-msgstr "wir zahlen immer in $"
+msgstr ""
 
 #: qa.markup
 msgid "<p id=\"hello\">my paragraph</p>"
@@ -273,17 +273,17 @@ msgstr ""
 
 #: qa.punctation
 msgid "This, is a very important text!"
-msgstr "Dies ist ein sehr wichtiger text"
+msgstr ""
 
 #: qa.punctation2
 msgid "Dies ist ein sehr) wichtiger text"
-msgstr "This, is a (very) important text"
+msgstr ""
 
 #: qa.whitespace1
 msgid "This sentence    contains a tab"
-msgstr "Dieser Satz enthält keinen tab!"
+msgstr ""
 
 #: qa.whitespace2
 msgid "This sentence contains a trailing whitespace "
-msgstr "Dieser Satz enthält kein nachfolgendes Leerzeichen"
+msgstr ""
 
