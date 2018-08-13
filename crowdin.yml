@@ -1,3 +1,8 @@
 files:
   - source: src/main/resources/messages/messages.po
     translation: /src/main/resources/messages/messages_%locale_with_underscore%.po
+    languages_mapping:
+      locale_with_underscore:
+        de: de_DE
+        de-AT: de_AT
+        en-GB: en_GB
