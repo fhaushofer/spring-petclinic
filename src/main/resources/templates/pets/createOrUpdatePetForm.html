@@ -4,30 +4,29 @@
 <body>
 
   <h2>
-    <th:block th:if="${pet['new']}">New </th:block>
-    Pet
+    <th:block th:if="${pet['new']}" th:text="#{form.pet.header}">New Pet</th:block>
   </h2>
   <form th:object="${pet}" class="form-horizontal" method="post">
     <input type="hidden" name="id" th:value="*{id}" />
     <div class="form-group has-feedback">
       <div class="form-group">
-        <label class="col-sm-2 control-label">Owner</label>
+        <label class="col-sm-2 control-label" th:text="#{form.pet.owner}">Owner</label>
         <div class="col-sm-10">
           <span th:text="${pet.owner?.firstName + ' ' + pet.owner?.lastName}" />
         </div>
       </div>
       <input
-        th:replace="~{fragments/inputField :: input ('Name', 'name')}" />
+        th:replace="~{fragments/inputField :: input ('pet.name', 'name')}" />
       <input
-        th:replace="~{fragments/inputField :: input ('Birth Date', 'birthDate')}" />
+        th:replace="~{fragments/inputField :: input ('pet.birthdate', 'birthDate')}" />
       <input
-        th:replace="~{fragments/selectField :: select ('Type', 'type', ${types})}" />
+        th:replace="~{fragments/selectField :: select ('pet.type', 'type', ${types})}" />
     </div>
     <div class="form-group">
       <div class="col-sm-offset-2 col-sm-10">
         <button
-          th:with="text=${owner['new']} ? 'Add Pet' : 'Update Pet'"
-          class="btn btn-default" type="submit" th:text="${text}">Add
+          th:with="text=${owner['new']} ? 'form.pet.add' : 'form.pet.update'"
+          class="btn btn-default" type="submit" th:text="#{${text}}">Add
           Pet</button>
       </div>
     </div>

@@ -5,29 +5,29 @@
 
 <body>
 
-  <h2>Veterinarians</h2>
+  <h2 th:text="#{vet.header}">Vets</h2>
 
   <table id="vets" class="table table-striped">
     <thead>
       <tr>
-        <th>Name</th>
-        <th>Specialties</th>
+        <th th:text="#{vet.name}">Name</th>
+        <th th:text="#{vet.specialities}">Specialties</th>
       </tr>
     </thead>
     <tbody>
       <tr th:each="vet : ${vets.vetList}">
         <td th:text="${vet.firstName + ' ' + vet.lastName}"></td>
         <td><span th:each="specialty : ${vet.specialties}"
-          th:text="${specialty.name + ' '}" /> <span
-          th:if="${vet.nrOfSpecialties == 0}">none</span></td>
+          th:text="${specialty.name + ' '}" />
+            <span th:if="${vet.nrOfSpecialties == 0}" th:text="#{vet.specialities.none}" >snone</span></td>
       </tr>
     </tbody>
   </table>
 
   <table class="table-buttons">
     <tr>
-      <td><a th:href="@{/vets.xml}">View as XML</a></td>
-      <td><a th:href="@{/vets.json}">View as JSON</a></td>
+      <td><a th:href="@{/vets.xml}" th:text="#{vet.viewas.xml}">View as XML</a></td>
+      <td><a th:href="@{/vets.json}" th:text="#{vet.viewas.json}">View as JSON</a></td>
     </tr>
   </table>
 
