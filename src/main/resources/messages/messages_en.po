@@ -1,213 +1,289 @@
-#. extracted from ./repo/src/main/resources/messages/messages.properties, ./repo/src/main/resources/messages/messages_en.properties
-#, fuzzy
+#. extracted from ./repo/src/main/resources/messages/messages.properties, ./repo/src/main/resources/messages/messages.properties
 msgid ""
-msgstr """Project-Id-Version: PACKAGE VERSION\n"
+msgstr ""
+"""\n"
+"Project-Id-Version: petshoptest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-22 20:02+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-08-13 09:59\n"
+"Last-Translator: fhaushofer <franz.haushofer@student.tugraz.at>\n"
+"Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: petshoptest\n"
+"X-Crowdin-Language: en\n"
+"X-Crowdin-File: /crowdin-master/src/main/resources/messages/messages.po\n"
+"Language: en_US\n"
+
+msgid "One file removed"
+msgid_plural "%d files removed"
+msgstr[0] ""
+msgstr[1] ""
 
 #: welcome
 msgid "Welcome"
 msgstr ""
+
 #: required
 msgid "is required"
-msgstr ""#: notFound
+msgstr ""
+
+#: notFound
 msgid "has not been found"
 msgstr ""
+
 #: duplicate
 msgid "is already in use"
 msgstr ""
+
 #: nonNumeric
 msgid "must be all numeric"
 msgstr ""
+
 #: duplicateFormSubmission
 msgid "Duplicate form submission is not allowed"
 msgstr ""
+
 #: typeMismatch.date
 msgctxt "typeMismatch.date"
 msgid "invalid date"
 msgstr ""
+
 #: typeMismatch.birthDate
 msgctxt "typeMismatch.birthDate"
 msgid "invalid date"
 msgstr ""
+
 #: exception.text
 msgid "Something terrible happened...."
 msgstr ""
+
 #: vet.header
 msgid "{0} {0, plural, one{Veterinarian}other{Veterinarians}}"
 msgstr ""
+
 #: vet.name
 msgctxt "vet.name"
 msgid "Name"
 msgstr ""
+
 #: vet.specialities
 msgid "Specialities"
 msgstr ""
+
 #: vet.specialities.none
 msgid "none"
 msgstr ""
+
 #: vet.viewas.xml
 msgid "View as XML"
 msgstr ""
+
 #: vet.viewas.json
 msgid "View as JSON"
 msgstr ""
+
 #: pet.name
 msgctxt "pet.name"
 msgid "Name"
 msgstr ""
+
 #: pet.birthdate
 msgid "Birthdate"
 msgstr ""
+
 #: pet.type
 msgid "Type"
 msgstr ""
+
 #: form.pet.header
 msgid "New Pet"
 msgstr ""
+
 #: form.pet.owner
 msgid "Owner"
 msgstr ""
+
 #: form.pet.add
 msgid "Add Pet"
 msgstr ""
+
 #: form.pet.update
 msgid "Update Pet"
 msgstr ""
+
 #: form.pet.edit
 msgid "Edit Pet"
 msgstr ""
+
 #: layout.title
 msgid "PetClinic :: a Spring Framework demonstration"
 msgstr ""
+
 #: layout.menu.home.text
 msgid "Home"
 msgstr ""
+
 #: layout.menu.home.title
 msgid "home page"
 msgstr ""
+
 #: layout.menu.findowners.text
 msgid "Find owners"
 msgstr ""
+
 #: layout.menu.findowners.title
 msgid "find owners"
 msgstr ""
+
 #: layout.menu.vets.text
 msgid "Veterinarians"
 msgstr ""
+
 #: layout.menu.vets.title
 msgid "veterinarians"
 msgstr ""
+
 #: layout.menu.error.text
 msgid "Error"
 msgstr ""
+
 #: layout.menu.error.title
 msgid "trigger a RuntimeException to see how it is handled"
 msgstr ""
+
 #: form.visit.header
 msgid "New Visit"
 msgstr ""
+
 #: form.visit.add
 msgid "Add Visit"
 msgstr ""
+
 #: form.general.date
 msgid "Date"
 msgstr ""
+
 #: form.general.description
 msgid "Description"
 msgstr ""
+
 #: visits.previous
 msgid "Previous Visits"
 msgstr ""
+
 #: general.pets
 msgctxt "general.pets"
 msgid "Pets"
 msgstr ""
+
 #: form.owners.header
 msgid "{0} {0, plural, one{Owner}other{Owners}} found"
 msgstr ""
+
 #: form.owners.pets
 msgctxt "form.owners.pets"
 msgid "Pets"
 msgstr ""
+
 #: owner.find.header
 msgid "Find Owners"
 msgstr ""
+
 #: owner.find.button.search
 msgid "Find Owner"
 msgstr ""
+
 #: owner.button.add
 msgid "Add Owner"
 msgstr ""
+
 #: owner.button.update
 msgid "Update Owner"
 msgstr ""
+
 #: owner.name
 msgctxt "owner.name"
 msgid "Name"
 msgstr ""
+
 #: owner.lastname
 msgid "Last name"
 msgstr ""
+
 #: owner.firstname
 msgid "Vorname"
 msgstr ""
+
 #: owner.address
 msgid "Address"
 msgstr ""
+
 #: owner.city
 msgid "City"
 msgstr ""
+
 #: owner.phone
 msgid "Telephone"
 msgstr ""
+
 #: owner.detail.header
 msgid "Owner Information"
 msgstr ""
+
 #: owner.detail.button.edit
 msgid "Edit Owner"
 msgstr ""
+
 #: owner.detail.button.add
 msgid "Add New Pet"
 msgstr ""
+
 #: owner.detail.header.petsandvisits
 msgid "Pets and Visits"
 msgstr ""
+
 #: owner.detail.form.visitdate
 msgid "Visit Date"
 msgstr ""
+
 #. #
 #: qa.spelling
 msgid "Please give me cookies"
 msgstr ""
+
 #: qa.grammar
 msgid "Today is a nice day"
 msgstr ""
+
 #: qa.date
 msgid "Available since 4/20/1995"
 msgstr ""
+
 #: qa.currency
 msgid "we always pay in $"
 msgstr ""
+
 #: qa.markup
 msgid "<p id=\"hello\">my paragraph</p>"
 msgstr ""
+
 #: qa.punctation
 msgid "This, is a very important text!"
 msgstr ""
+
 #: qa.punctation2
 msgid "Dies ist ein sehr) wichtiger text"
 msgstr ""
+
 #: qa.whitespace1
 msgid "This sentence    contains a tab"
 msgstr ""
+
 #: qa.whitespace2
 msgid "This sentence contains a trailing whitespace "
 msgstr ""
+
