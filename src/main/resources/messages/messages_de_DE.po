@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: petshoptest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-22 20:02+0000\n"
-"PO-Revision-Date: 2018-08-13 10:17\n"
+"PO-Revision-Date: 2018-08-13 11:41\n"
 "Last-Translator: fhaushofer <franz.haushofer@student.tugraz.at>\n"
 "Language-Team: German\n"
 "MIME-Version: 1.0\n"
@@ -253,7 +253,7 @@ msgstr "Besuchszeit"
 #. #
 #: qa.spelling
 msgid "Please give me cookies"
-msgstr "Bitte gip mir cookies"
+msgstr "Pitte gip mir cookies"
 
 #: qa.grammar
 msgid "Today is a nice day"
