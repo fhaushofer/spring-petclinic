@@ -1,0 +1,289 @@
+#. extracted from ./repo/src/main/resources/messages/messages.properties, ./repo/src/main/resources/messages/messages.properties
+msgid ""
+msgstr ""
+"""\n"
+"Project-Id-Version: petshoptest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-22 20:02+0000\n"
+"PO-Revision-Date: 2018-08-13 12:52\n"
+"Last-Translator: fhaushofer <franz.haushofer@student.tugraz.at>\n"
+"Language-Team: Afrikaans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: petshoptest\n"
+"X-Crowdin-Language: af\n"
+"X-Crowdin-File: /crowdin-master/src/main/resources/messages/messages.po\n"
+"Language: af_ZA\n"
+
+msgid "One file removed"
+msgid_plural "%d files removed"
+msgstr[0] "crwdns261:1crwdne261:1"
+msgstr[1] "crwdns261:5%dcrwdne261:5"
+
+#: welcome
+msgid "Welcome"
+msgstr "crwdns262:0crwdne262:0"
+
+#: required
+msgid "is required"
+msgstr "crwdns263:0crwdne263:0"
+
+#: notFound
+msgid "has not been found"
+msgstr "crwdns264:0crwdne264:0"
+
+#: duplicate
+msgid "is already in use"
+msgstr "crwdns265:0crwdne265:0"
+
+#: nonNumeric
+msgid "must be all numeric"
+msgstr "crwdns266:0crwdne266:0"
+
+#: duplicateFormSubmission
+msgid "Duplicate form submission is not allowed"
+msgstr "crwdns267:0crwdne267:0"
+
+#: typeMismatch.date
+msgctxt "typeMismatch.date"
+msgid "invalid date"
+msgstr "crwdns268:0crwdne268:0"
+
+#: typeMismatch.birthDate
+msgctxt "typeMismatch.birthDate"
+msgid "invalid date"
+msgstr "crwdns269:0crwdne269:0"
+
+#: exception.text
+msgid "Something terrible happened...."
+msgstr "crwdns270:0crwdne270:0"
+
+#: vet.header
+msgid "{0} {0, plural, one{Veterinarian}other{Veterinarians}}"
+msgstr "crwdns271:00={0}crwdnd271:00={0}crwdne271:0"
+
+#: vet.name
+msgctxt "vet.name"
+msgid "Name"
+msgstr "crwdns272:0crwdne272:0"
+
+#: vet.specialities
+msgid "Specialities"
+msgstr "crwdns273:0crwdne273:0"
+
+#: vet.specialities.none
+msgid "none"
+msgstr "crwdns274:0crwdne274:0"
+
+#: vet.viewas.xml
+msgid "View as XML"
+msgstr "crwdns275:0crwdne275:0"
+
+#: vet.viewas.json
+msgid "View as JSON"
+msgstr "crwdns276:0crwdne276:0"
+
+#: pet.name
+msgctxt "pet.name"
+msgid "Name"
+msgstr "crwdns277:0crwdne277:0"
+
+#: pet.birthdate
+msgid "Birthdate"
+msgstr "crwdns278:0crwdne278:0"
+
+#: pet.type
+msgid "Type"
+msgstr "crwdns279:0crwdne279:0"
+
+#: form.pet.header
+msgid "New Pet"
+msgstr "crwdns280:0crwdne280:0"
+
+#: form.pet.owner
+msgid "Owner"
+msgstr "crwdns281:0crwdne281:0"
+
+#: form.pet.add
+msgid "Add Pet"
+msgstr "crwdns282:0crwdne282:0"
+
+#: form.pet.update
+msgid "Update Pet"
+msgstr "crwdns283:0crwdne283:0"
+
+#: form.pet.edit
+msgid "Edit Pet"
+msgstr "crwdns284:0crwdne284:0"
+
+#: layout.title
+msgid "PetClinic :: a Spring Framework demonstration"
+msgstr "crwdns285:0crwdne285:0"
+
+#: layout.menu.home.text
+msgid "Home"
+msgstr "crwdns286:0crwdne286:0"
+
+#: layout.menu.home.title
+msgid "home page"
+msgstr "crwdns287:0crwdne287:0"
+
+#: layout.menu.findowners.text
+msgid "Find owners"
+msgstr "crwdns288:0crwdne288:0"
+
+#: layout.menu.findowners.title
+msgid "find owners"
+msgstr "crwdns289:0crwdne289:0"
+
+#: layout.menu.vets.text
+msgid "Veterinarians"
+msgstr "crwdns290:0crwdne290:0"
+
+#: layout.menu.vets.title
+msgid "veterinarians"
+msgstr "crwdns291:0crwdne291:0"
+
+#: layout.menu.error.text
+msgid "Error"
+msgstr "crwdns292:0crwdne292:0"
+
+#: layout.menu.error.title
+msgid "trigger a RuntimeException to see how it is handled"
+msgstr "crwdns293:0crwdne293:0"
+
+#: form.visit.header
+msgid "New Visit"
+msgstr "crwdns294:0crwdne294:0"
+
+#: form.visit.add
+msgid "Add Visit"
+msgstr "crwdns295:0crwdne295:0"
+
+#: form.general.date
+msgid "Date"
+msgstr "crwdns296:0crwdne296:0"
+
+#: form.general.description
+msgid "Description"
+msgstr "crwdns297:0crwdne297:0"
+
+#: visits.previous
+msgid "Previous Visits"
+msgstr "crwdns298:0crwdne298:0"
+
+#: general.pets
+msgctxt "general.pets"
+msgid "Pets"
+msgstr "crwdns299:0crwdne299:0"
+
+#: form.owners.header
+msgid "{0} {0, plural, one{Owner}other{Owners}} found"
+msgstr "crwdns300:00={0}crwdnd300:00={0}crwdne300:0"
+
+#: form.owners.pets
+msgctxt "form.owners.pets"
+msgid "Pets"
+msgstr "crwdns301:0crwdne301:0"
+
+#: owner.find.header
+msgid "Find Owners"
+msgstr "crwdns302:0crwdne302:0"
+
+#: owner.find.button.search
+msgid "Find Owner"
+msgstr "crwdns303:0crwdne303:0"
+
+#: owner.button.add
+msgid "Add Owner"
+msgstr "crwdns304:0crwdne304:0"
+
+#: owner.button.update
+msgid "Update Owner"
+msgstr "crwdns305:0crwdne305:0"
+
+#: owner.name
+msgctxt "owner.name"
+msgid "Name"
+msgstr "crwdns306:0crwdne306:0"
+
+#: owner.lastname
+msgid "Last name"
+msgstr "crwdns307:0crwdne307:0"
+
+#: owner.firstname
+msgid "Vorname"
+msgstr "crwdns308:0crwdne308:0"
+
+#: owner.address
+msgid "Address"
+msgstr "crwdns309:0crwdne309:0"
+
+#: owner.city
+msgid "City"
+msgstr "crwdns310:0crwdne310:0"
+
+#: owner.phone
+msgid "Telephone"
+msgstr "crwdns311:0crwdne311:0"
+
+#: owner.detail.header
+msgid "Owner Information"
+msgstr "crwdns312:0crwdne312:0"
+
+#: owner.detail.button.edit
+msgid "Edit Owner"
+msgstr "crwdns313:0crwdne313:0"
+
+#: owner.detail.button.add
+msgid "Add New Pet"
+msgstr "crwdns314:0crwdne314:0"
+
+#: owner.detail.header.petsandvisits
+msgid "Pets and Visits"
+msgstr "crwdns315:0crwdne315:0"
+
+#: owner.detail.form.visitdate
+msgid "Visit Date"
+msgstr "crwdns316:0crwdne316:0"
+
+#. #
+#: qa.spelling
+msgid "Please give me cookies"
+msgstr "crwdns317:0crwdne317:0"
+
+#: qa.grammar
+msgid "Today is a nice day"
+msgstr "crwdns318:0crwdne318:0"
+
+#: qa.date
+msgid "Available since 4/20/1995"
+msgstr "crwdns319:0crwdne319:0"
+
+#: qa.currency
+msgid "we always pay in $"
+msgstr "crwdns320:0crwdne320:0"
+
+#: qa.markup
+msgid "<p id=\"hello\">my paragraph</p>"
+msgstr "crwdns321:0crwdne321:0"
+
+#: qa.punctation
+msgid "This, is a very important text!"
+msgstr "crwdns322:0crwdne322:0"
+
+#: qa.punctation2
+msgid "Dies ist ein sehr) wichtiger text"
+msgstr "crwdns323:0crwdne323:0"
+
+#: qa.whitespace1
+msgid "This sentence    contains a tab"
+msgstr "crwdns324:0crwdne324:0"
+
+#: qa.whitespace2
+msgid "This sentence contains a trailing whitespace "
+msgstr "crwdns325:0crwdne325:0"
+
